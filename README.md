@@ -199,7 +199,7 @@ There are two ways to use this library:
 ## History
 
 - Date 2022-4-15
-- Version V1.0.0
+- Version V1.0.1
 
 
 ## Credits
