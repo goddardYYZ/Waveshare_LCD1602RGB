@@ -33,7 +33,7 @@ There are two ways to use this library:
 
 ## Compatibility
 
-| Board         | Work Well | Work Wrong | Untested | Remarks |
+| Board         |  Working  |   Issues   | Untested | Remarks |
 | ------------- | :-------: | :--------: | :------: | ------- |
 | Arduino uno   |     √     |            |          |         |
 | Mega2560      |     √     |            |          |         |
