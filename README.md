@@ -5,7 +5,7 @@
 Have you been fed up with Black/White LCD screen? Do you want to try a colorful one? DFRobot I2C 16x2 Arduino LCD with RGB Backlight Display module will bring you a new experience about screen. It comes with RGB full color backlight, which has 16 million kinds of color. This I2C 16x2 LCD Screen is using an Gravity I2C communication interface. It means it only needs 2 communication lines for the communication and backlight control. The LCD can display 2x16 characters and support scrolling-displaying and cursor movement. Without tedious wiring and complicated codes, you can just utilize the specific Arduino library to accomplish all the design.
 
 
-![](./resources/images/DFR0464.jpg)
+![](./resources/images/BLWBBA.jpg)
 
 
 ## Product Link(https://www.dfrobot.com/product-1609.html)
