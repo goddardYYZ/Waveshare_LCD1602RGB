@@ -1,36 +1,48 @@
-# DFRobot_RGBLCD1602
+# Waveshare_LCD1602RGB
 
 - [中文版](./README_CN.md)
 
-Have you been fed up with Black/White LCD screen? Do you want to try a colorful one? DFRobot I2C 16x2 Arduino LCD with RGB Backlight Display module will bring you a new experience about screen. It comes with RGB full color backlight, which has 16 million kinds of color. This I2C 16x2 LCD Screen is using an Gravity I2C communication interface. It means it only needs 2 communication lines for the communication and backlight control. The LCD can display 2x16 characters and support scrolling-displaying and cursor movement. Without tedious wiring and complicated codes, you can just utilize the specific Arduino library to accomplish all the design.
+This is a fork of the DFRobot_RGBLCD1602 Arduino library to make it more useful with the Waveshare_LCD1602RGB module. 
 
 
 ![](./resources/images/BLWBBA.jpg)
 
 
-## Product Link(https://www.dfrobot.com/product-1609.html)
-
-    SKU：DFR0464
-
 ## Table of Contents
 
 * [Summary](#summary)
 * [Installation](#installation)
-* [Methods](#methods)
 * [Compatibility](#compatibility)
+* [Methods](#methods)
 * [History](#history)
 * [Credits](#credits)
 
+
 ## Summary
 
-DFRobot Gravity I2C LCD1602 with RGB Backlight Display can display 2x16 characters and support functions like scrolling-displaying, cursor movement and backlight color adjustment
+Waveshare I2C LCD1602 with RGB Backlight Display can display 2x16 characters and support functions like scrolling-displaying, cursor movement and backlight color adjustment
+
 
 ## Installation
 
 There are two ways to use this library:
 
-1. Open Arduino IDE, find Tools in the status bar -> Manager Libraries, search "DFRobot_RGBLCD1602" and install this library
+1. Open Arduino IDE, find Tools in the status bar -> Manager Libraries, search "Waveshare_LCD1602RGB" and install this library
 2. First download the library file, paste it into the \Arduino\Libraries directory, then open the examples folder and run the demo in that folder
+
+
+## Compatibility
+
+| Board         | Work Well | Work Wrong | Untested | Remarks |
+| ------------- | :-------: | :--------: | :------: | ------- |
+| Arduino uno   |     √     |            |          |         |
+| Mega2560      |     √     |            |          |         |
+| Leonardo      |     √     |            |          |         |
+| ESP32         |     √     |            |          |         |
+| ESP8266       |     √     |            |          | (D1,D2) |
+| micro:bit     |     √     |            |          |         |
+| FireBeetle M0 |     √     |            |          |         |
+
 
 ## Methods
 
@@ -184,21 +196,9 @@ There are two ways to use this library:
   void setBacklight(bool mode);
 ```
 
-## Compatibility
-
-| Board         | Work Well | Work Wrong | Untested | Remarks |
-| ------------- | :-------: | :--------: | :------: | ------- |
-| Arduino uno   |     √     |            |          |         |
-| Mega2560      |     √     |            |          |         |
-| Leonardo      |     √     |            |          |         |
-| ESP32         |     √     |            |          |         |
-| micro:bit     |     √     |            |          |         |
-| FireBeetle M0 |     √     |            |          |         |
-
-
 ## History
 
-- Date 2021-9-26
+- Date 2022-4-15
 - Version V1.0.0
 
 
