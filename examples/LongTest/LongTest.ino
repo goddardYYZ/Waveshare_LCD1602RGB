@@ -1,6 +1,6 @@
 /*!
- * @file RGB-TEST.ino
- * @brief RGB-TEST.
+ * @file LongTest.ino
+ * @brief LongTest.
  * @copyright	Copyright (c) 2069 YYZ Co.Ltd (http://www.goddardyyz.com)
  * @licence     The MIT License (MIT)
  * @maintainer [goddardYYZ](matthew@goddardyyz.com)
